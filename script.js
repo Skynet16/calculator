@@ -28,3 +28,13 @@ var multiplication = document.getElementsByName('multiplication');
    ready = num5*num6;
    document.getElementById('result').innerHTML = ready;
 }
+function share(){
+var division = document.getElementsByName('division');
+   var num7, num8, go;
+   num7 = document.getElementById('first_number').value;
+   num7 = parseInt(num7);
+   num8 = document.getElementById('second_number').value;
+   num8 = parseInt(num8);
+   go = num7/num8;
+   document.getElementById('result').innerHTML = go;
+}
