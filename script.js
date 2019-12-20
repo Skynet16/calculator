@@ -18,3 +18,13 @@ var subtraction = document.getElementsByName('subtraction');
    reshenie = num3-num4;
    document.getElementById('result').innerHTML = reshenie;
 }
+function multiply(){
+var multiplication = document.getElementsByName('multiplication');
+   var num5, num6, ready;
+   num5 = document.getElementById('first_number').value;
+   num5 = parseInt(num5);
+   num6 = document.getElementById('second_number').value;
+   num6 = parseInt(num6);
+   ready = num5*num6;
+   document.getElementById('result').innerHTML = ready;
+}
