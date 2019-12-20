@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+}
+
+section {
+  display: block;
+  width: 800px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.number_input {
+  display: block;
+  width: 100%;
+  height: 32px;
+  font-size: 24px;
+}
+
+.buttons_block {
+  display: block;
+  width: 100%;
+  height: 120px;
+}
+
+.action_button {
+  float: left;
+  width: 320px;
+  height: 32px;
+  margin: 10px;
+}
+
+hr {
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+}
+
+#result {
+  display: block;
+  width: 100%;
+  min-height: 42px;
+  border: 2px solid;
+}
