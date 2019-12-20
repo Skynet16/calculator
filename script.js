@@ -38,3 +38,4 @@ var division = document.getElementsByName('division');
    go = num7/num8;
    document.getElementById('result').innerHTML = go;
 }
+console.log(" Чудаков Иван Дмитриевич")
